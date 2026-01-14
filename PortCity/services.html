@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>PortCity Marina - Hizmetlerimiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Hizmetlerimiz</h1>
+        <p><i>Marina Hizmetleri</i></p>
+        <button id="theme-toggle" aria-pressed="false" aria-label="Tema Değiştir" title="Tema Değiştir">🎨</button>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="services.html">Hizmetlerimiz</a>
+        <a href="contact.html">İletişim</a>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Marina Hizmetleri</h2>
+            
+            <div class="service-card" data-info="Yatlar için güvenli park ve bağlama hizmetleri, su ve elektrik ikmali.">
+                <img src="https://www.denizpazari.com/dosya/marina/mega/28839643681688.JPG" alt="Marina" style="width: 180px; height: 100px;">
+                <h4>Yat Park ve Barınma</h4>
+                <p><b>300 yat kapasiteli</b> modern marina.</p>
+            </div>
+            
+            <div class="service-card" data-info="Uzman teknisyen kadrosu ile yat bakım, motor kontrolü ve onarım hizmetleri.">
+                <img src="https://onurlarmarin.com/Content/Images/yat-makine-bakim-onarim.jpg" alt="Bakım" style="width: 180px; height: 100px;">
+                <h4>Yat Bakım ve Onarım</h4>
+                <p>Teknisyenler ile <i>motor bakımı</i>.</p>
+            </div>
+            
+            <div class="service-card" data-info="7/24 yakıt ve temiz su ikmali, güvenli dolum noktaları ve personel desteği.">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=120&fit=crop" alt="Yakıt" style="width: 180px; height: 100px;">
+                <h4>Yakıt ve Su İkmal</h4>
+                <p><b>7/24</b> yakıt hizmeti.</p>
+            </div>
+            
+            <div style="clear: both;"></div>
+        </div>
+
+        <div class="section">
+            <h3>Gastronomi</h3>
+            <ol>
+                <li><b>Akdeniz Balık Evi</b> - Balık restoranı</li>
+                <li><i>Marina Lounge</i> - Kahve ve kokteyl</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h3>Aktiviteler</h3>
+            <ul id="dynamic-activities"></ul>
+        </div>
+
+        <div class="section">
+            <h3>Haftalık Etkinlik Programı</h3>
+            <table border="1" style="width: 100%; border-collapse: collapse;">
+                <tr style="background-color: #0066cc; color: white;">
+                    <th>Gün</th>
+                    <th>Sabah</th>
+                    <th>Öğleden Sonra</th>
+                    <th>Akşam</th>
+                </tr>
+                <tr>
+                    <td><b>Pazartesi</b></td>
+                    <td><span class="has-info" data-info="Sabah yoga seansı; tüm seviyelere uygun, 08:00'de başlar.">Yoga Eğlencesi</span></td>
+                    <td><span class="has-info" data-info="Kısa kıyı turları ve günbatımı seansı; rezervasyon önerilir.">Yelken Turları</span></td>
+                    <td><span class="has-info" data-info="Akustik ve caz performanslarıyla sakin bir akşam; bilet tavsiye edilir.">Jazz Gecesi</span></td>
+                </tr>
+                <tr>
+                    <td><b>Salı</b></td>
+                    <td><span class="has-info" data-info="Kıyı boyunca rehberli yürüyüş; hafif tempo, 09:00'da başlar.">Yürüyüş Aktivitesi</span></td>
+                    <td><span class="has-info" data-info="Denizaltı keşif turları; deneyimli dalgıçlar eşliğinde yapılır.">Tüplü Dalış</span></td>
+                    <td><span class="has-info" data-info="Konser, DJ ve gece etkinlikleri; mekanlara göre program değişir.">Gece Eğlenceleri</span></td>
+                </tr>
+                <tr>
+                    <td><b>Çarşamba</b></td>
+                    <td><span class="has-info" data-info="Sabah pilates seansı; temel ekipman sağlanır.">Pilates</span></td>
+                    <td><span class="has-info" data-info="Rehber eşliğinde balık tutma turları; ekipman kiralanabilir.">Balık Tutma</span></td>
+                    <td><span class="has-info" data-info="Gece boyunca DJ performansları ve dans etkinlikleri.">DJ Performansı</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h4>Özel Hizmetler</h4>
+            <ul>
+                <li><b>Yat</b> kiralama hizmetleri</li>
+                <li><i>Özel etkinlik</i> organizasyonu</li>
+                <li><u>Düğün</u> çekimleri</li>
+                <li>Acil sağlık hizmetleri</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="background-color: #003366; color: white; text-align: center; padding: 15px;">
+        <p>&copy; 2024 PortCity Marina</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
